@@ -51,6 +51,9 @@ dependencies {
     // room dan ksp
     implementation(libs.bundles.room)
     ksp(libs.room.compiler)
+    //view model
+    implementation(libs.lifecycle.viewmodel.compose)
+    implementation(libs.lifecycle.runtime.compose)
 
 
     testImplementation(libs.junit)
